@@ -1,0 +1,15 @@
+# Use the official Python image as a base
+FROM python:3.10
+
+# Install assemblyai library
+RUN pip install assemblyai
+
+# Copy your Python script into the container
+COPY subtiles.py /app/subtiles.py
+COPY test_compress.wav /app/test_compress.wav
+
+# Set the working directory
+WORKDIR /app
+
+# Command to run your Python script
+CMD ["python", "subtiles.py"]

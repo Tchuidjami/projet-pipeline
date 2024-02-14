@@ -1,0 +1,11 @@
+
+FROM python:bullseye
+RUN apt-get update && apt-get install -y ffmpeg
+COPY compression.py /app/compression.py
+COPY test.mp4 /app/test.mp4
+WORKDIR /app
+RUN pip install ffmpeg
+CMD ["python", "compression.py"]
+
+
+
