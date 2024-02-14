@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  compression:
+    image: mycompression
+      
+    # Définissez d'autres options comme les volumes, les ports, etc., selon vos besoins
+
+  subtitles:
+    image: subtitle
+    
+    # Définissez d'autres options comme les volumes, les ports, etc., selon vos besoins
+  
