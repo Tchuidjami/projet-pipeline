@@ -17,16 +17,16 @@
        #Nous avons cree deux dockerfile pour la langue et les animaux et les commandes respectives permettant de les executer sont: docker build -t langue . et docker build -t myanimaux .
 
 
-    #c- on a lance les deux conteneurs au meme moment grace a docker-compose : docker-compose up -d
+    # c- on a lance les deux conteneurs au meme moment grace a docker-compose : docker-compose up -d
 
 
-    #d- sur aws, on a aggrege la video compresse et les soustitres grace a une instance qu'on a cree et ensuite on a fait communiquer cette instance avec s3
+    # d- sur aws, on a aggrege la video compresse et les soustitres grace a une instance qu'on a cree et ensuite on a fait communiquer cette instance avec s3
 
 
-    #e- sur s3 on a stocke la video compressee, le fichier de soustitres, et la video aggregee dans le bucket aggregation
+    # e- sur s3 on a stocke la video compressee, le fichier de soustitres, et la video aggregee dans le bucket aggregation
 
 
-    #f- et enfin on a affiche notre video aggregee sur une page web: **pageweb.html**
+    # f- et enfin on a affiche notre video aggregee sur la page web: pageweb.html
 
 
 
