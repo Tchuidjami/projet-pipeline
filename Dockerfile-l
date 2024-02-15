@@ -1,0 +1,16 @@
+
+
+FROM python:3.10
+
+# Copiez les fichiers de votre application dans le conteneur
+COPY langue.py /app/langue.py
+
+# Définissez le répertoire de travail dans le conteneur
+WORKDIR /app
+
+# Installez les dépendances Python requises
+RUN pip install git+https://github.com/openai/whisper.git
+
+
+# Commande à exécuter lorsque le conteneur démarre
+CMD ["python", "langue.py"]
