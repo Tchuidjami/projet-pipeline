@@ -12,7 +12,7 @@
 
     b- conteneur des sous-titres
        
-       commande a executer: **docker run -d subtitle**
+       commande a executer: docker run -d subtitle
 
        Nous avons cree deux dockerfile pour la langue et les animaux et les commandes respectives permettant de les executer sont: docker build -t langue . et docker build -t myanimaux .
 
