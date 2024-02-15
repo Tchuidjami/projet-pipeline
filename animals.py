@@ -8,7 +8,7 @@ import cv2
 model = tf.keras.applications.MobileNetV2(weights="imagenet")
 
 # Open the video file
-cap = cv2.VideoCapture("test_compress.mp4")
+cap = cv2.VideoCapture("test.mp4")
 
 if not cap.isOpened():
     print("Error: Unable to open video file.")
