@@ -9,22 +9,7 @@ main {
 
 
 
-#nav-droite,
-#nav-gauche {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 3em;
-}
 
-#nav-droite {
-    right: 20px;
-}
-
-#nav-gauche {
-    left: 20px;
-}
 
 
 
@@ -63,18 +48,5 @@ main {
     z-index: 1;
 }
 
-.description-button {
-    margin-top: 10px; /* Espace entre la vidéo et le bouton de description */
-    background-color: #007bff; /* Couleur de fond du bouton */
-    color: black; /* Couleur du texte du bouton */
-    border: none;
-    padding: 8px 16px; /* Espacement intérieur du bouton */
-    cursor: pointer; /* Curseur de la souris au survol du bouton */
-    border-radius: 5px; /* Coins arrondis du bouton */
-}
-
-.description-button:hover {
-    background-color: #0056b3; /* Couleur de fond du bouton au survol */
-}
 
 
