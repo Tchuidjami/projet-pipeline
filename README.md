@@ -1,2 +1,1 @@
-# projet-pipeline
-ce projet a pour but de creer un pipeline de traitement video.Les videos sont stockes en local et sont traitees par un ensemble de conteneurs,notamment un conteneur qui va compresser la video,detecter la langue,sous-titrer, et enfin detecter si il y'a des animaux dans la video.Les metadonnees seront aggreges par des VMs heberge dans le cloud AWS, et le resultat sera affichee sur une page web publique.
+
